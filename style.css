@@ -1,0 +1,399 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: hsl(0, 6%, 24%);
+  background-color: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
+}
+
+#secao-superior {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 40px;
+  background-color: #ffffff;
+  width: 700px;
+  height: 250px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#secao-superior h1 {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: hsl(179, 62%, 43%);
+}
+
+#secao-superior h2 {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: hsl(71, 73%, 54%);
+}
+
+#secao-superior p {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: hsl(218, 22%, 67%);
+}
+
+#secao-esquerda,
+#secao-direita {
+  padding: 40px;
+  height: 270px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#secao-esquerda {
+  width: 350px;
+  background-color: hsl(179, 62%, 43%);
+  border-radius: 0px 0px 0px 10px;
+}
+
+#secao-esquerda h1 {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+}
+
+#subscription {
+  display: flex;
+  align-items: center;
+}
+
+#subscription h2 {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: hsl(0, 0%, 100%);
+  margin-right: 10px;
+}
+
+#subscription h6 {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: hsla(203, 44%, 93%, 0.507);
+}
+
+#secao-esquerda p {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 30px;
+}
+
+button {
+  margin: 0;
+  width: 100%;
+  min-width: 0;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  display: inline-block;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  outline: none;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  line-height: normal;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(71, 73%, 54%);
+  padding: 16px 24px;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+  box-shadow: rgba(28, 34, 26, 0.25) 0 8px 15px;
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+button:hover {
+  box-shadow: rgba(28, 34, 26, 0.25) 0 8px 15px;
+  transform: translateY(-0.8px);
+}
+
+#secao-direita {
+  width: 350px;
+  background-color: hsla(179, 47%, 52%, 1);
+  border-radius: 0px 0px 10px 0px;
+}
+
+#secao-direita h1 {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 10px;
+}
+
+#secao-direita p {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: hsl(204, 43%, 93%);
+}
+
+.attribution {
+  position: relative;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px;
+  color: hsl(179, 62%, 43%);
+}
+
+.attribution a {
+  color: hsl(71, 73%, 54%);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: hsl(71, 73%, 54%);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: hsl(0, 6%, 24%);
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla", sans-serif;
+  }
+
+  #secao-superior {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 40px;
+    background-color: #ffffff;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  #secao-superior h1 {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(179, 62%, 43%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #secao-superior h2 {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 10px;
+  }
+
+  #secao-superior p {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: hsl(218, 22%, 67%);
+  }
+
+  #secao-inferior {
+    flex-direction: column;
+    display: flex;
+  }
+
+  #secao-esquerda,
+  #secao-direita {
+    padding: 40px;
+    height: 270px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  #secao-esquerda {
+    width: 350px;
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  #secao-esquerda h1 {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+  }
+
+  #subscription {
+    display: flex;
+    align-items: center;
+  }
+
+  #subscription h2 {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: hsl(0, 0%, 100%);
+    margin-right: 10px;
+  }
+
+  #subscription h6 {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: hsla(203, 44%, 93%, 0.507);
+  }
+
+  #secao-esquerda p {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 30px;
+  }
+
+  button {
+    margin: 0;
+    width: 100%;
+    min-width: 0;
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    line-height: normal;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(71, 73%, 54%);
+    padding: 16px 24px;
+    transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    box-shadow: rgba(28, 34, 26, 0.25) 0 8px 15px;
+  }
+
+  button:hover {
+    box-shadow: rgba(28, 34, 26, 0.25) 0 8px 15px;
+    transform: translateY(-0.8px);
+  }
+
+  #secao-direita {
+    width: 350px;
+    background-color: hsla(179, 47%, 52%, 1);
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  #secao-direita h1 {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+  }
+
+  #secao-direita p {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: hsl(204, 43%, 93%);
+  }
+
+  .attribution {
+    position: relative;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+    color: hsl(179, 62%, 43%);
+  }
+
+  .attribution a {
+    color: hsl(71, 73%, 54%);
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: hsl(71, 73%, 54%);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
+}
